@@ -15,3 +15,16 @@ terraform.tfvars.json
 *.DS_Store
 .idea/
 .vscode/
+# .gitignore for Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+*.log
+.terraform.lock.hcl
+*.backup
+*.bak
+*.swp
+.DS_Store
